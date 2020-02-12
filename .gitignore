@@ -1,0 +1,3 @@
+# 不想让git track的文件放在这里
+
+node_modules/
