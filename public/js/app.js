@@ -11,7 +11,7 @@ form.addEventListener("submit", () => {
 	// Show load message when submitting the form
 	messageOne.innerText = "Loading Weather...";
 	messageTwo.innerText = "";
-	const url = `http://localhost:3000/weather?address=${address}`;
+	const url = `/weather?address=${address}`;
 
 	fetch(url).then(response => {
 		response.json().then(data => {
