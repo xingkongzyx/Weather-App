@@ -25,7 +25,7 @@ form.addEventListener("submit", () => {
                 document.querySelector("input").value = "";
                 messageOne.textContent = "";
                 messageTwo.textContent = "";
-            }, 5000);
+            }, 20000);
 		});
 	});
 
